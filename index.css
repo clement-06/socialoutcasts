@@ -1,0 +1,75 @@
+/* Page specific styles for index.html */
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/Images/homepage.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+/* Hero Content Layout */
+.hero-content {
+  max-width: 900px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Space between the glass blocks */
+}
+
+/* Glass Effect for Individual Elements */
+.hero-content h1,
+.hero-content p,
+.hero-content .btn {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 20px 40px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: fit-content; /* Only wrap the text */
+  color: white; /* Ensure visibility */
+  text-decoration: none; /* Just in case */
+}
+
+.hero-content h1 {
+  font-size: 5rem;
+  margin-bottom: 0; /* Let gap handle spacing */
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 10px; /* Slight extra space before button */
+  max-width: 600px;
+  letter-spacing: 3px;
+}
+
+.featured-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.featured-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.btn-secondary {
+  background-color: rgb(122, 106, 225);
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.btn-secondary:hover {
+  background-color: #bd8080;
+  color: black;
+}

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social OutCast - Shop</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">S.O STORE</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="NewArrivals.html">New Arrivals</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path
+              d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+            ></path>
+          </svg>
+          <span id="cart-count">0</span>
+        </a>
+      </div>
+    </nav>
+
+    <main class="shop-container">
+      <section class="hero-section">
+        <h1>Shop Collection</h1>
+      <!-- T-SHIRTS SECTION -->
+      <section class="category-section">
+        <h2 class="category-title">T-Shirts</h2>
+        
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop.jpg" alt="Classic Logo Tee" />
+              </div>
+              <div class="product-info">
+                <h3>Vanguard Shield Tee</h3>
+                <p class="price">GHS 190.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 2.jpg" alt="Cyberpunk Graphic" />
+              </div>
+              <div class="product-info">
+                <h3>Cyberpulse Graphic</h3>
+                <p class="price">GHS 195.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 4.jpg" alt="Monochrome Abstract" />
+              </div>
+              <div class="product-info">
+                <h3>Noir Abstract Tee</h3>
+                <p class="price">GHS 180.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop  3.jpg" alt="Urban Streetwear" />
+              </div>
+              <div class="product-info">
+                <h3>Avenue Strike Tee</h3>
+                <p class="price">GHS 200.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 5.jpg" alt="Minimalist SO" />
+              </div>
+              <div class="product-info">
+                <h3>Core Essentials Tee</h3>
+                <p class="price">GHS 170.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 6.jpg" alt="Grunge Style" />
+              </div>
+              <div class="product-info">
+                <h3>Shadow Grunge Tee</h3>
+                <p class="price">GHS 190.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 7.jpg" alt="Retro Vibe Tee" />
+              </div>
+              <div class="product-info">
+                <h3>Vivid Retro Tee</h3>
+                <p class="price">GHS 210.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 8.jpg" alt="Abstract Distortion" />
+              </div>
+              <div class="product-info">
+                <h3>Distorted Reality Tee</h3>
+                <p class="price">GHS 185.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Product 9 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/shop 9.jpg" alt="Urban Explorer" />
+              </div>
+              <div class="product-info">
+                <h3>Outcast Explorer Tee</h3>
+                <p class="price">GHS 175.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- NEW DROPS SECTION -->
+      <section class="category-section">
+        <h2 class="category-title">New Drops</h2>
+        <div class="product-grid">
+            <!-- New Drop 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/new arrival 5.jpg" alt="Solar Flare Tee" />
+              </div>
+              <div class="product-info">
+                <h3>Solar Flare Tee</h3>
+                <p class="price">GHS 220.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- New Drop 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/new arrival 6.jpg" alt="Lunar Phase Tee" />
+              </div>
+              <div class="product-info">
+                <h3>Lunar Phase Tee</h3>
+                <p class="price">GHS 220.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- HOODIES SECTION -->
+      <section class="category-section">
+        <h2 class="category-title">Hoodies</h2>
+        
+        <div class="product-grid">
+            <!-- Hoodie 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/hoodie.png" alt="Premium Beige Hoodie" />
+              </div>
+              <div class="product-info">
+                <h3>Beige Essentials Hoodie</h3>
+                <p class="price">GHS 350.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Hoodie 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/new arrival 2.jpg" alt="Onyx Hoodie" />
+              </div>
+              <div class="product-info">
+                <h3>Onyx Premium Hoodie</h3>
+                <p class="price">GHS 360.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+            <!-- Hoodie 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../Images/homepage.jpg" alt="Homegrown Style" />
+              </div>
+              <div class="product-info">
+                <h3>Homegrown Street Hoodie</h3>
+                <p class="price">GHS 380.00</p>
+                <div class="size-selector">
+                  <span class="size-label">Size:</span>
+                  <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn active" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                    <button class="size-btn" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Location
+          </h4>
+          <p>East Legon, Bawaleshi<br />Accra, Ghana</p>
+        </div>
+        <div class="footer-section">
+            <h4>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                Contact
+            </h4>
+            <p>Email: info@socialoutcast.com<br>Phone: +233 55 123 4567</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 Social OutCast. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/shop.js" defer></script>
+  </body>
+</html>
